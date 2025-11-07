@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/package.json",
+    "name": "vibe-commerce-cart",
+    "version": "1.0.0",
+    "description": "Full-stack shopping cart app for Vibe Commerce",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "./run-app.sh",
+        "server": "cd server && node index.js",
+        "client": "cd client && npm start",
+        "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
