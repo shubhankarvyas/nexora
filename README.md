@@ -200,3 +200,4 @@ MONGODB_URI=mongodb://localhost:27017/vibe-commerce
 ## License
 
 This project is created for Vibe Commerce internship screening purposes.![alt text](image.png)
+![alt text](image-1.png)
